@@ -1,0 +1,129 @@
+@width-main-content-desktop: 1170px;
+@full-width-desktop: 1200px;
+@padding-width-desktop: 0.025 * @full-width-desktop;
+
+@media (min-width: @full-width-desktop) {
+    [class*="col-lg-"] {
+        padding-right: @padding-width-desktop;
+    }
+
+    .col-lg-1 {
+        width: 0.0833 * @full-width-desktop;
+    }
+
+    .col-lg-2 {
+        width: 0.1666 * @full-width-desktop;
+    }
+
+    .col-lg-3 {
+        width: 0.25 * @full-width-desktop;
+    }
+
+    .col-lg-4 {
+        width: 0.3333 * @full-width-desktop;
+    }
+
+    .col-lg-5 {
+        width: 0.4166 * @full-width-desktop;
+    }
+
+    .col-lg-6 {
+        width: 0.5 * @full-width-desktop;
+    }
+
+    .col-lg-7 {
+        width: 0.58 * @full-width-desktop;
+    }
+
+    .col-lg-8 {
+        width: 0.6666 * @full-width-desktop;
+    }
+
+    .col-lg-9 {
+        width: 0.75 * @full-width-desktop;
+    }
+
+    .col-lg-10 {
+        width: 0.8333 * @full-width-desktop;
+    }
+
+    .col-lg-11 {
+        width: 0.9166 * @full-width-desktop;
+    }
+
+    .col-lg-12 {
+        width: @width-main-content-desktop;
+    }
+
+    .menu-container {
+        padding-right: 0;
+    }
+
+    .menu-items-container {
+        padding: 0;
+    }
+
+    .lang-contact-container {
+        padding: 0;
+    }
+
+    .contact-link {
+        padding: 0;
+    }
+
+    .main-container {
+        padding: 0;
+    }
+
+    #slider-container {
+        padding: 0;
+        max-width: 0.58 * @full-width-desktop;
+        height: 0.58 * @full-width-desktop;
+        margin-left: 0.0833 * @full-width-desktop;
+    }
+
+    .buttons-container .more-about-us-button-container {
+        padding: 0;
+    }
+
+    .works-container {
+        h2 {
+            padding-right: 0;
+        }
+
+        .see-more-button-link {
+            padding-right: 0;
+        }
+    }
+
+    .example-link {
+        @example-width: 0.3333 * @full-width-desktop - @padding-width-desktop;
+
+        width: @example-width;
+        padding-top: 0;
+        height: 0.7 * @example-width;
+        margin-bottom: @padding-width-desktop;
+    }
+
+    .form-container > div {
+        .email-subject-container {
+            margin-bottom: @padding-width-desktop;
+            div {
+                width: 0.5 * @full-width-desktop - @padding-width-desktop;
+            }
+        }
+
+        textarea {
+            margin-bottom: @padding-width-desktop;
+        }
+    }
+
+    .form-container .submit-button {
+        .col-lg-2();
+        margin-top: @padding-width-desktop;
+    }
+
+    .footer-container nav {
+        width: 0.5 * @full-width-desktop - @padding-width-desktop;
+    }
+}
